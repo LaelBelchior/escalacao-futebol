@@ -1,16 +1,21 @@
 import React from 'react'
+import Draggable from 'react-draggable'
 import './style.css'
 
 export default function Jogador(props){
 
     return(
 
-        <div className='jogador-container'>
+        <Draggable>
 
-            <label> {props.nome} </label>
-            <p> {props.posicao} </p>
+            <div className='jogador'>
 
-        </div>
+                <p>sdadsad</p>
+                <p>asdasd</p>
+
+            </div>
+
+        </Draggable>
 
     )
 

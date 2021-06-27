@@ -1,0 +1,41 @@
+.escalacao{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.ataque{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.meio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.defesa{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#h2-escalacao{
+
+    font-weight: 400;
+
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import Draggable from 'react-draggable'
 import './style.css'
 
-export default function Jogador(props){
+export default function Jogador(){
 
     return(
 
@@ -10,8 +10,7 @@ export default function Jogador(props){
 
             <div className='jogador'>
 
-                <p>sdadsad</p>
-                <p>asdasd</p>
+                <input type='text' id='nome-jogador' placeholder='Nome'></input>
 
             </div>
 
